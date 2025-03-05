@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: #FEA610;
+}
+
+ul.list{
+    position: absolute;
+    margin-left: calc((100% - 800px)/2);
+    width: 800px;
+    height: 30px;
+    list-style-type: none;
+}
+
+ul.list li {
+    background-color: grey;
+    display: inline;
+}
